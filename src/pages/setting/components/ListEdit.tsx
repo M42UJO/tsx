@@ -9,9 +9,9 @@ export default function ListEdit() {
   const handleEditorChange = (content: string) => {
     setContent(content);
   };
-
+  
   return (
-    <div className="flex h-screen p-4">
+    <div className="">
       <main
         className="flex-grow p-0 rounded-md shadow-lg"
         style={{ backgroundColor: "#F5F6FB" }}

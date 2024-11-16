@@ -31,7 +31,7 @@ export default function SpacesAdd() {
         }
     };
     return (
-        <div className="flex h-screen p-4">
+        <div className="">
 
 
             <main className="flex-grow rounded-md shadow-lg bg[#F5F6FB]">

@@ -13,9 +13,8 @@ export default function SettingAdd() {
   };
 
   return (
-    <div className="flex h-screen p-4">
-
-
+    <div className="">
+      
       <main className="flex-grow p-0 rounded-md shadow-lg bg-[#F5F6FB]">
         <div className="p-0">
           {/* Header */}

@@ -8,7 +8,7 @@ const Layouts: React.FC<LayoutProps> = ({ pageshow }) => {
   return (
     <div className="flex h-screen p-4 bg-[#272727]">
       <Sidebar />
-      <main className="flex-grow p-6 rounded-md shadow-lg bg-[#F5F6FB]">
+      <main className="flex-grow rounded-md shadow-lg bg-[#F5F6FB]">
         {pageshow}
       </main>
     </div>

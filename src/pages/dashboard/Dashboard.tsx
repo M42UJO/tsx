@@ -4,12 +4,10 @@ import DashboarfSestion from "./components/DashboarfSestion"
 
 function Dashboard() {
   return (
-    <div className="flex h-screen p-4">
-    <main className="flex-grow p-6 rounded-md shadow-lg bg-[#F5F6FB]">
+    <main className="flex-grow rounded-md p-6  bg-[#F5F6FB]">
         <DashboardHeader/>
         <DashboarfSestion/>
     </main>
-  </div>
   )
 }
 
