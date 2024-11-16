@@ -7,9 +7,9 @@ import SettingEdit from "../pages/setting/components/SettingEdit";
 import SettingList from "../pages/setting/components/SettingList";
 import Spaces from "../pages/spaces/Spaces";
 import ListEdit from "../pages/setting/components/ListEdit";
-
-
-
+import Layouts from "../Layouts/main/Layouts";
+import Main from "../pages/main/Main";
+import Setting from "../pages/setting/Setting";
 
 // const MainPage = React.lazy(() => import("../page/MainPage/MainPage"));
 
@@ -18,8 +18,14 @@ export default function Router() {
     return useRoutes([
       {
         path: "/",
-        element: <Dashboard/>,
+        element: <Main/>,
         children: [
+          {
+            path: "/",
+            element:
+              <Layouts pageshow={<Dashboard />} />
+            ,
+          },
           {
             path: "/login",
             element: <Login/>
@@ -27,27 +33,32 @@ export default function Router() {
           },       
           {
             path: "/settingAdd",
-            element: <SettingAdd/>
+            element:  <Layouts pageshow={<SettingAdd />} />
             ,
           },       
           {
             path: "/settingEdit",
-            element: <SettingEdit/>
+            element:  <Layouts pageshow={<SettingEdit/>} />
             ,
           },       
           {
             path: "/settingList",
-            element: <SettingList/>
+            element:  <Layouts pageshow={<SettingList />} />
             ,
           },       
           {
             path: "/spaces",
-            element: <Spaces/>
+            element:  <Layouts pageshow={<Spaces />} />
             ,
           },       
           {
             path: "/listEdit",
-            element: <ListEdit/>
+            element:  <Layouts pageshow={<ListEdit />} />
+            ,
+          },       
+          {
+            path: "/setting",
+            element:  <Layouts pageshow={<Setting />} />
             ,
           },       
        

@@ -5,7 +5,7 @@ export default function SettingList() {
       {/* Add Item Button */}
       <div className="mb-8">
         <Link
-          to={"/AddSetting"}
+          to={"/settingAdd"}
           className="bg-black text-white py-2 px-4 rounded-md shadow-md"
         >
           + เพิ่มรายการ
@@ -63,7 +63,7 @@ export default function SettingList() {
 
             {/* Edit and Delete Buttons */}
             <div className="flex space-x-2 justify-center">
-              <Link to={"/EditList"} className="bg-[#AFAFAF] text-white text-center py-4 px-4 w-40 rounded-md shadow-md">
+              <Link to={"/ListEdit"} className="bg-[#AFAFAF] text-white text-center py-4 px-4 w-40 rounded-md shadow-md">
                 แก้ไข
               </Link>
               <button className="bg-black text-white py-4 px-4 w-40 rounded-md shadow-md">

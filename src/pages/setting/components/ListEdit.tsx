@@ -78,7 +78,7 @@ export default function ListEdit() {
             {/* Save and Cancel Buttons */}
             <div className="flex justify-end space-x-4">
               <Link
-                to={"/EditSetting"}
+                to={"/setting"}
                 className="bg-[#AFAFAF] text-center text-white py-4 px-6 w-2/4 rounded-md"
               >
                 ยกเลิก

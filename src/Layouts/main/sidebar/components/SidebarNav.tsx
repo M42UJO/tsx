@@ -50,7 +50,7 @@ export default function SidebarNav() {
     </div>
     {isSpacesOpen && (
       <div className=" text-gray-400 font-bold">
-        <Link to="/EditSetting" className="block py-2 pl-20 button">
+        <Link to="/setting" className="block py-2 pl-20 button">
           PPE API setting
         </Link>
         <Link to="/" className="block py-2 pl-20 button">

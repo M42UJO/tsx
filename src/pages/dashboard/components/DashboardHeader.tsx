@@ -14,7 +14,7 @@ export default function DashboardHeader() {
         กรองข้อมูล
       </button>
       <Link
-        to="/AddSpaces"
+        to="/spaces"
         className="bg-slate-950 text-white text-center py-4 rounded-md w-40 shadow-md"
       >
         Spaces +
